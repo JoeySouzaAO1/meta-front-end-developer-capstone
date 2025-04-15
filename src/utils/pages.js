@@ -7,12 +7,12 @@ pages.set('bookings', {
   name: 'Reservations', 
   path: '/bookings', 
   anchorable: true 
-});
+});  
 pages.set('confirmedBooking', { 
   name: 'Confirmed Booking', 
   path: '/confirmed-booking', 
   anchorable: false 
-});
+}); 
 pages.set('orderOnline', { 
   name: 'Order Online', 
   path: '/order-online', 
@@ -21,3 +21,5 @@ pages.set('orderOnline', {
 pages.set('login', { name: 'Login', path: '/login', anchorable: true });
 
 export default pages;
+
+// Updates
